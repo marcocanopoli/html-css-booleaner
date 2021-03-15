@@ -1,0 +1,102 @@
+body {
+    margin: auto;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    position: relative;
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: 35%;
+    height: 100px;
+    width: 130%;
+    margin-left: -15%;
+}
+
+.container {
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    bottom: 0;
+    height: 60%;
+    margin-left: 10px;
+}
+
+ #title {
+    font-size: 42px;
+    text-align: justify;
+    margin: 0px;
+} 
+
+.subheading {
+    color: #808080;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#article-author {
+    color: #4EA0FF;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+   font-size: 14px;
+   
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.table-head {
+    background-color: #20A9E5;
+    color: white;
+}
+
+.left-cell{
+    width: 50%;
+}
+
+.table-blue-row {
+    background-color: #B1E5F2;
+}
+
+#recommended-title {
+    color: #808080;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.recommended-item {
+    width: 332px;
+    height: 208px;
+    background-size: cover;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#recommended_1{
+    background-image: url(../img/monitor.jpg);
+}
+
+#recommended_2{
+    background-image: url(../img/graph.jpg);
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 60%;
+}
+
+header {
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-size: 40%;
+    height: 100px;
+    padding: 10px;
+}
+
+#logo {
+    height: 60%;
+}
+
+ #title {
+    font-size: 42px;
+    text-align: justify;
+    margin: 0px;
+} 
+
+.subheading {
+    color: #808080;
+
+}
+
+#article-author {
+    color: #4EA0FF;
+}
+

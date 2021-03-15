@@ -27,11 +27,15 @@
 
             <!-- article photos -->
             <figure>
-                <img src="img/tim-1.jpg" alt="Tim Berners-Lee_1">
-                <img src="img/tim-2.jpg" alt="Tim Berners-Lee_2">
-                <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
-                <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
-            </figure>
+                <figure>
+                    <img src="img/tim-1.jpg" alt="Tim Berners-Lee_1">
+                    <img src="img/tim-2.jpg" alt="Tim Berners-Lee_2">
+                    <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
+                </figure>
+                <figure>
+                    <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+                </figure>
+             </figure>
             <!-- /article photos -->
 
             <!-- article body -->
@@ -48,15 +52,29 @@
 
             <!-- table -->
             <table>
-                <thead>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
+                <thead class="table-head">
+                    <tr>
+                        <th>Lorem, ipsum dolor.</th>
+                        <th>Lorem, ipsum dolor.</th>
+                        <th>Lorem, ipsum dolor.</th>
+                    </tr>
                 </thead>
-                <tbody>
-                    <td>Lorem, ipsum dolor.</td>
-                    <td>Lorem, ipsum dolor.</td>
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo! Qui officia deserunt fuga dolorum? Quia, sit quod maiores ad corrupti eos perferendis, id optio, corporis laboriosam omnis veritatis tempora.</td>
+                <tbody class="table-body">
+                    <tr class="table-blue-row">
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td class="left-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo! Qui officia deserunt fuga dolorum? Quia, sit quod maiores ad corrupti eos perferendis, id optio, corporis laboriosam omnis veritatis tempora.</td>
+                    </tr>
+                    <tr class="table-white-row">
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td class="left-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo! Qui officia deserunt fuga dolorum? Quia, sit quod maiores ad corrupti eos perferendis, id optio, corporis laboriosam omnis veritatis tempora.</td>
+                    </tr>
+                    <tr class="table-blue-row">
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td class="left-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo! Qui officia deserunt fuga dolorum? Quia, sit quod maiores ad corrupti eos perferendis, id optio, corporis laboriosam omnis veritatis tempora.</td>
+                    </tr>
                 </tbody>
             </table>
             <!-- /table -->
@@ -71,7 +89,7 @@
 
         <!-- recommended  -->
         <section>
-            <span id="recommended-title">Potrebbero interessarti</span><br>
+            <h2 id="recommended-title">Potrebbero interessarti</h2>
             <div class="recommended-item" id="recommended_1">
                 <span>Lorem, ipsum dolor.</span>
             </div>

@@ -6,17 +6,19 @@ body {
 }
 
 header {
+    position: relative;
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;
-    background-size: contain;
-    background-size: 40%;
+    background-size: 35%;
     height: 100px;
-    padding: 10px;
 }
 
 #logo {
+    position: absolute;
+    bottom: 0;
     height: 60%;
+    margin-left: 10px;
 }
 
  #title {
@@ -29,7 +31,7 @@ header {
     color: #808080;
     font-size: 20px;
     font-weight: 600;
-
+    margin-bottom: 10px;
 }
 
 #article-author {
@@ -37,11 +39,12 @@ header {
 }
 
 figure {
-    margin-left: 0px;
+    margin: 0px;
 }
 
 figcaption {
    font-size: 14px;
+   
 }
 
 p {
@@ -50,6 +53,19 @@ p {
 
 ul {
     padding-left: 15px;
+}
+
+.table-head {
+    background-color: #20A9E5;
+    color: white;
+}
+
+.left-cell{
+    width: 50%;
+}
+
+.table-blue-row {
+    background-color: #B1E5F2;
 }
 
 #recommended-title {
